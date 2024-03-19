@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./camera.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ark Blog</title>
+</head>
+
+<body>
+
+  <div>
+    <div class="container">
+      <div class="header">
+        <img src="./assets/images/17.jpg" class="bg-image" alt="">
+        <div class="nav">
+          <div class="cmp cmp1">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24">
+              <path
+                d="M19,4h-.508L16.308,1.168A3.023,3.023,0,0,0,13.932,0H10.068A3.023,3.023,0,0,0,7.692,1.168L5.508,4H5A5.006,5.006,0,0,0,0,9V19a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V9A5.006,5.006,0,0,0,19,4ZM9.276,2.39A1.006,1.006,0,0,1,10.068,2h3.864a1.008,1.008,0,0,1,.792.39L15.966,4H8.034ZM22,19a3,3,0,0,1-3,3H5a3,3,0,0,1-3-3V9A3,3,0,0,1,5,6H19a3,3,0,0,1,3,3Z" />
+              <path d="M12,8a6,6,0,1,0,6,6A6.006,6.006,0,0,0,12,8Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,12,18Z" />
+            </svg>
+            <div class="nav-text">Ark's Photographic Blog</div>
+          </div>
+          <div class="cmp cmp2">
+            <a href="#follow">
+              <div class="btn">Follow Me</div>
+            </a>
+          </div>
+        </div>
+        <div class="header-text">
+          <div>I am a photographer from a small town in India. I am searching for a vision in my frames
+            through my lenses.</div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="main-header">The Uncool Gallery</div>
+        <div class="img-container">
+          <img src="./assets/images/12.jpg" class="image" alt="">
+          <img src="./assets/images/13.jpg" class="image" alt="">
+          <img src="./assets/images/15.jpg" class="image" alt="">
+          <img src="./assets/images/16.jpg" class="image" alt="">
+          <img src="./assets/images/19.jpg" class="image" alt="">
+          <img src="./assets/images/23.jpg" class="image" alt="">
+          <img src="./assets/images/20.jpg" class="image" alt="">
+          <img src="./assets/images/21.jpg" class="image" alt="">
+          <img src="./assets/images/22.jpg" class="image" alt="">
+        </div>
+      </div>
+
+      <div class="about-me">
+        <div class="elm elm1">
+          I am on a journey to capture the daily struggle of the people who work hard to earn their share of rice
+          through
+          my lenses.
+        </div>
+        <div class="elm elm2">
+          <img src="./assets/images/14.jpeg" class="image" alt="">
+
+        </div>
+      </div>
+
+      <div class="social-links" id="follow">
+        <div class="social-text">Follow Me On</div>
+        <div class="links-con">
+          <div class="link-con">
+
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24">
+              <path
+                d="M19,4h-.508L16.308,1.168A3.023,3.023,0,0,0,13.932,0H10.068A3.023,3.023,0,0,0,7.692,1.168L5.508,4H5A5.006,5.006,0,0,0,0,9V19a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V9A5.006,5.006,0,0,0,19,4ZM9.276,2.39A1.006,1.006,0,0,1,10.068,2h3.864a1.008,1.008,0,0,1,.792.39L15.966,4H8.034ZM22,19a3,3,0,0,1-3,3H5a3,3,0,0,1-3-3V9A3,3,0,0,1,5,6H19a3,3,0,0,1,3,3Z" />
+              <path d="M12,8a6,6,0,1,0,6,6A6.006,6.006,0,0,0,12,8Zm0,10a4,4,0,1,1,4-4A4,4,0,0,1,12,18Z" />
+            </svg>
+            <div class="link-text">@vanc.ouver7</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-tap-highlight-color: transparent;
+
+
+      scrollbar-width: none;
+      font-family: Quicksand;
+    }
+
+    ::selection {
+      background: rgb(68, 195, 250);
+      color: white
+    }
+
+    ::-webkit-scrollbar {
+      width: 0px;
+      min-height: 20px;
+      max-height: 20px;
+      min-height: 0px;
+      max-height: 0px;
+      opacity: 0.1;
+    }
+
+    ::-webkit-scrollbar-track {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      ;
+
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgb(170, 168, 168);
+      border-radius: 10px;
+      opacity: 0.1;
+      min-height: 20px;
+      max-height: 20px;
+    }
+
+    button {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+      * {
+        scrollbar-width: none;
+        /* for Firefox */
+        -ms-overflow-style: none;
+        /* for Internet Explorer, Edge */
+
+      }
+
+      body ::-webkit-scrollbar {
+        display: none;
+      }
+
+
+      body {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+      }
+
+      ::-webkit-scrollbar {
+        width: 7px;
+        min-height: 20px;
+        max-height: 20px;
+
+        width: 0px;
+        min-height: 0px;
+        max-height: 0px;
+      }
+
+    }
+
+    @font-face {
+      font-family: 'Quicksand';
+      font-style: normal;
+      src: local('Quicksand'), local('Quicksand'), url(./assets/fonts/Quicksand-Medium.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Vx';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Vx'), local('Vx'), url(./assets/fonts/LeckerliOne-Regular.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Kanit';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Kanit'), local('Kanit'), url(./assets/fonts/Kanit-Bold.ttf) format('truetype');
+    }
+
+    .container {
+      height: fit-content;
+    }
+
+    .container .svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .container .header {
+      height: 100vh;
+    }
+
+    .container .header .bg-image {
+      z-index: -1;
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .container .header .nav {
+      width: 100vw;
+      display: flex;
+      padding: 15px 10% 15px 10%;
+    }
+
+    .container .header .nav .cmp1 {
+      display: flex;
+      flex: 1;
+      margin: 5px 0px 0px 0px;
+    }
+
+    .container .header .nav .cmp2 {
+      flex: 0.01;
+    }
+
+    .container .header .nav .cmp2 .btn {
+      width: 150px;
+      padding: 7px;
+      border-radius: 3px;
+      font-size: 19px;
+      text-align: center;
+      cursor: pointer;
+      border: 2px solid white;
+      transition: all, 200ms;
+      color: white;
+      font-weight: bold;
+    }
+
+    .container .header .nav .cmp2 .btn:hover {
+      background: white;
+      color: black;
+    }
+
+    .container .header .nav .svg {
+      width: 26px;
+      height: 26px;
+      fill: white;
+    }
+
+    .container .header .nav .nav-text {
+      font-size: 24px;
+      font-weight: bolder;
+      margin: 0px 0px 0px 10px;
+      color: white;
+    }
+
+    .container .header .header-text {
+      padding: 10% 10% 15px 10%;
+      justify-content: center;
+      display: flex;
+    }
+
+    .container .header .header-text div {
+      width: 600px;
+      height: 300px;
+      font-size: 32px;
+      font-weight: bolder;
+      color: white;
+    }
+
+    .container .main {
+      width: 100vw;
+      height: fit-content;
+      padding: 5% 10% 0 10%;
+      background: white;
+    }
+
+    .container .main .main-header {
+      font-size: 40px;
+      font-family: Kanit;
+      text-align: center;
+    }
+
+    .container .main .img-container {
+      margin: 50px 0px 0px 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .container .main .img-container .image {
+      width: 30%;
+      height: auto;
+      margin: 1%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .container .about-me {
+      width: 100vw;
+      height: 120vh;
+      padding: 10% 10% 0 10%;
+      background: white;
+      display: flex;
+    }
+
+    .container .about-me .elm {
+      flex: 1;
+    }
+
+    .container .about-me .elm1 {
+      font-size: 55px;
+      padding: 0px 5px 0px 5px;
+    }
+
+    .container .about-me .elm2 .image {
+      width: 100%;
+      height: auto;
+    }
+
+    .container .social-links {
+      width: 100vw;
+      height: fit-content;
+      background: white;
+      padding: 7% 0px 20% 0;
+    }
+
+    .container .social-links .social-text {
+      font-size: 40px;
+      font-family: Kanit;
+      text-align: center;
+      margin: 0px 0px 6% 0;
+    }
+
+    .container .social-links .links-con {
+      display: flex;
+      justify-content: center;
+    }
+
+    .container .social-links .link-con {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container .social-links .link-con .svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .container .social-links .link-con .link-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 8px 0px 0px 5px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .container .header {
+        height: 70vh;
+      }
+
+      .container .header .bg-image {
+        height: 60vh;
+      }
+
+      .container .header .nav .cmp1 {
+        display: flex;
+        justify-content: center;
+      }
+
+      .container .header .nav .cmp1 .nav-text {
+        font-size: 19px;
+      }
+
+      .container .header .nav .cmp2 {
+        display: none;
+      }
+
+      .container .header .header-text div {
+        width: 100%;
+        font-size: 29px;
+      }
+
+      .container .main {
+        height: fit-content;
+        padding-top: 15%;
+      }
+
+      .container .main .main-header {
+        font-size: 19px;
+        font-family: Quicksand;
+        font-weight: bold;
+      }
+
+      .container .main .img-container {
+        display: block;
+      }
+
+      .container .main .img-container .image {
+        width: 100%;
+      }
+
+      .container .about-me {
+        height: fit-content;
+        display: block;
+      }
+
+      .container .about-me .elm1 {
+        font-size: 21px;
+      }
+
+      .container .about-me .elm2 {
+        margin-top: 40px;
+      }
+
+      .container .social-links {
+        margin: 10% 0px 0px 0px;
+      }
+
+      .container .social-links .social-text {
+        font-size: 20px;
+        font-family: Quicksand;
+        font-weight: bold;
+      }
+
+      .container .social-links .links-con .link-con .svg {
+        width: 25px;
+        height: 25px;
+      }
+
+      .container .social-links .links-con .link-con .link-text {
+        font-size: 19px;
+        margin: 0px 0px 0px 5px;
+      }
+    }
+  </style>
+</body>
+
+</html>
